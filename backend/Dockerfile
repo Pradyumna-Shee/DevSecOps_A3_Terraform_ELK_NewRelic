@@ -5,7 +5,8 @@ WORKDIR /app
 
 # Required for New Relic
 ENV NEW_RELIC_CONFIG_FILE=newrelic.ini
-ENV NEW_RELIC_APP_NAME="LMS System - Backend"
+# ENV NEW_RELIC_APP_NAME="LMS System - Backend"
+ENV NEW_RELIC_APP_NAME="LMS Backend GCP"
 ENV NEW_RELIC_HOST=collector.eu01.nr-data.net
 
 COPY requirements.txt .
