@@ -2,7 +2,7 @@ version: "2.2"
 
 services:
   backend-flask:
-    image: pradyumna6629/lms-backend:2.0.0
+    build: ./backend
     ports:
       - "4000:4000"
     environment:
