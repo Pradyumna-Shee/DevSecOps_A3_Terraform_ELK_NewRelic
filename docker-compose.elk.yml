@@ -1,3 +1,5 @@
+version: "2.2"
+
 services:
   backend-flask:
     image: pradyumna6629/lms-backend:2.0.0
