@@ -7,4 +7,3 @@ pytest-cov==4.1.0
 werkzeug==3.0.1
 SQLAlchemy==2.0.25
 newrelic
-newrelic
