@@ -7,6 +7,7 @@ services:
       - "4000:4000"
     environment:
       - NEW_RELIC_LICENSE_KEY=${NEW_RELIC_LICENSE_KEY}
+      - NEW_RELIC_DISTRIBUTED_TRACING_ENABLED=true
 
   frontend:
     image: pradyumna6629/lms-frontend:2.0.0
