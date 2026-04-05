@@ -17,5 +17,4 @@ COPY . .
 EXPOSE 4000
 # CMD ["python", "app.py"]
 # The lab requires running the app through the newrelic-admin wrapper
-# CMD ["newrelic-admin", "run-program", "python", "app.py"]
-CMD ["newrelic-admin", "run-program", "gunicorn", "-b", "0.0.0.0:4000", "app:app"]
+CMD ["newrelic-admin", "run-program", "python", "app.py"]
